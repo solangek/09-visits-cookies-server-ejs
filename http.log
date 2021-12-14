@@ -29,3 +29,8 @@
 ::1 - - [31/Dec/2020:12:39:48 +0000] "GET /favicon.ico HTTP/1.1" 404 45 "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15"
 ::1 - - [31/Dec/2020:12:41:54 +0000] "GET / HTTP/1.1" 304 - "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15"
 ::1 - - [31/Dec/2020:12:41:58 +0000] "GET /favicon.ico HTTP/1.1" 404 45 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15"
+::1 - - [13/Dec/2021:08:46:43 +0000] "GET /cookie.html HTTP/1.1" 200 222 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36"
+::1 - - [13/Dec/2021:08:46:45 +0000] "GET / HTTP/1.1" 200 168 "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36"
+::1 - - [13/Dec/2021:08:46:47 +0000] "GET / HTTP/1.1" 304 - "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36"
+::1 - - [13/Dec/2021:08:46:50 +0000] "GET / HTTP/1.1" 304 - "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36"
+::1 - - [13/Dec/2021:08:56:05 +0000] "GET / HTTP/1.1" 200 171 "http://localhost:3000/cookie.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36"

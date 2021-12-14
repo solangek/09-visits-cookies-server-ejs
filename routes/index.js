@@ -1,18 +1,18 @@
-var express = require('express');
-var Cookies = require('cookies')
+const express = require('express');
+const Cookies = require('cookies')
 
-var router = express.Router();
+const router = express.Router();
 
 // Optionally define keys to sign cookie values
 // to prevent client tampering
-var keys = ['keyboard cat']
+const keys = ['keyboard cat']
 
 
 router.get('/', function (req, res) {
-  var cookies = new Cookies(req, res, { keys: keys })
+  const cookies = new Cookies(req, res, { keys: keys })
 
   // Get the cookie
-  var lastVisit = cookies.get('LastVisit', { signed: true })
+  const lastVisit = cookies.get('LastVisit', { signed: true })
 
   if (!lastVisit) {
     // Set the cookie with expiration time 10 seconds (for testing)

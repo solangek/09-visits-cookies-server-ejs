@@ -1,8 +1,8 @@
 var express = require('express');
 var path = require('path');
 
-// Parse Cookie header and populate req.cookies with an object keyed by the cookie names
-// (https://www.npmjs.com/package/cookie-parser)
+// in this example we use cookie-parser to parse cookies (https://www.npmjs.com/package/cookie-parser)
+// it requires plugin in the cookie-parser middleware (see below)
 var cookieParser = require('cookie-parser');
 
 var fs = require('fs')
@@ -28,7 +28,7 @@ app.use(express.json());
 // parses incoming requests with urlencoded
 app.use(express.urlencoded({ extended: false }));
 
-// COOKIES
+// plugin cookie-parser middleware
 app.use(cookieParser());
 
 // make public folder visible for static files (client side javascript)
